@@ -15,7 +15,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
+    image: ferr546/infra_web
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 

@@ -1,5 +1,5 @@
-from django.db import models
 from django.core.exceptions import ValidationError
+from django.db import models
 from reviews.models.title import Title
 from reviews.models.user import User
 
