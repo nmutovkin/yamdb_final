@@ -1,4 +1,6 @@
 ### YamDb
+![example workflow](https://github.com/nmutovkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 YamDb - api для сервиса поиска и оценки произвдений (книг, фильмов, музыки)
 
 ### Как запустить проект:
