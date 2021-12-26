@@ -23,11 +23,12 @@ jobs:
         cd api_yamdb/
         pip install -r requirements.txt 
 
-    - name: Test with flake8 and django tests
+    - name: Test with flake8
       run: |
-        # запуск проверки проекта по flake8
         python -m flake8
-        # запустить написанные разработчиком тесты
+
+    - name: Test with developer tests
+      run: |
         pytest
 
   build_and_push_to_docker_hub:
